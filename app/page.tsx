@@ -71,10 +71,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900 text-gray-100 p-6 flex flex-col items-center relative">
       <header className="w-full max-w-2xl text-center py-6 space-y-2">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-fuchsia-600 bg-clip-text text-transparent">
-          Voice AI 
+        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+          4V-VoxaAI
         </h1>
-        <p className="text-xs font-mono text-fuchsia-400 tracking-wide opacity-80">
+        <p className="text-xs font-mono text-blue-400 tracking-wide opacity-80">
           STATUS: {instruction || "Ready"}
         </p>
       </header>

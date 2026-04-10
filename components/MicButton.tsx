@@ -23,7 +23,7 @@ export function MicButton({ recording, loading, start, stop }: MicButtonProps) {
         ${
           recording
             ? "bg-red-600 animate-pulse border-4 border-white/70"
-            : "bg-gradient-to-br from-blue-500 to-fuchsia-600 border-2 border-fuchsia-700"
+            : "bg-gradient-to-br from-blue-500 to-blue-600 border-2 border-fuchsia-700"
         }
       `}
     >
