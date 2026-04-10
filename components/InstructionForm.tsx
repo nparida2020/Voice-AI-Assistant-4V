@@ -28,9 +28,9 @@ export function InstructionForm({
         value={instruction}
         onChange={(e) => setInstruction(e.target.value)}
         placeholder="Set AI objective..."
-        className="flex-1 px-3 py-2 bg-gray-800 text-sm border border-gray-700 rounded-sm focus:outline-2 outline-purple-500"
+        className="flex-1 px-3 py-2 bg-gray-800 text-sm border border-gray-700 rounded-sm focus:outline-2 outline-blue-500"
       />
-      <button className="px-4 py-2 bg-purple-600 text-white text-sm ">
+      <button className="px-4 py-2 bg-blue-600 text-white text-sm ">
         Apply
       </button>
     </form>

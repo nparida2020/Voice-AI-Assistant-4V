@@ -71,8 +71,8 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 to-gray-900 text-gray-100 p-6 flex flex-col items-center relative">
       <header className="w-full max-w-2xl text-center py-6 space-y-2">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-purple-400 to-fuchsia-600 bg-clip-text text-transparent">
-          Groq Voice AI
+        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-400 to-fuchsia-600 bg-clip-text text-transparent">
+          Voice AI 
         </h1>
         <p className="text-xs font-mono text-fuchsia-400 tracking-wide opacity-80">
           STATUS: {instruction || "Ready"}
@@ -110,7 +110,7 @@ export default function Home() {
           <div
             className={`
       absolute bottom-0 w-full max-w-5xl h-40
-      bg-gradient-to-r from-fuchsia-600 to-purple-600 opacity-40
+      bg-gradient-to-r from-fuchsia-600 to-blue-600 opacity-40
       blur-3xl
     `}
           ></div>

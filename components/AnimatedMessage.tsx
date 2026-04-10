@@ -12,7 +12,7 @@ export const AnimatedMessage = ({
 
   const baseClasses = `max-w-[85%] p-3 rounded-sm leading-snug text-base transition-all duration-300  ${
     msg.role === "user"
-      ? "bg-purple-600 text-white ml-auto border border-purple-500 w-fit"
+      ? "bg-blue-600 text-white ml-auto border border-blue-500 w-fit"
       : "text-gray-300"
   }`;
 
